@@ -1,0 +1,56 @@
+
+$ git init
+
+$ ls -a
+
+$ git status
+
+$ touch plik1.txt
+
+$ ls
+
+$ code .
+
+$ git add plik1.txt
+
+$ git commit -m"Zrobiony 3 commit n plikach"
+
+$ git commit -am"Zrobiony 4 commit na plikach 2 i 3"
+
+$ git log
+
+$ git checkout -b"logowanie"    --nowy branch
+
+$ git checkout master     -- wracamy do poprzedniego branchu 
+
+$ git merge logowanie   -- jestesmy na master i łaczymy branch logowanie z master
+
+
+GIT HUB
+
+
+git remote add origin https://github.com/222marcin/git-pb-student.git
+
+
+git push -u origin master  // kopiowanie naszego repo do GITHUB
+
+
+
+Tworzymy drugi folder żeby ściągać czyjeś repo na nasz komputer - w tym przypadku te, które wczesniej wysłaliśmy do GITHuba
+
+
+git clone https://github.com/222marcin/git-pb-student.git
+
+wchodzimy do katalogu git-pb-student
+
+touch drugi-uzytkownik.txt
+
+git add drugi-uzytkownik.txt
+
+git pull --rebase  // jak nie mozemy wyslac pliku, bo jest nowy inny plik w repo
+
+
+
+git branch beta // nowy brancz
+
+git branch -d beta // usuniecie brancha beta
