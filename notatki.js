@@ -5,6 +5,6 @@ while (zdanie.length > maksDlugosc) {
     noweZdanie = zdanie.slice(0, indeksCiecia);
     console.log(noweZdanie);
     zdanie = zdanie.slice(indeksCiecia +1);
-
+ 
 }; 
 console.log(zdanie);
