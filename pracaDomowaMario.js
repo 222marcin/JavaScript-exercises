@@ -12,6 +12,6 @@ let hash = "";
 for (k = 1; k <= hashCount; k++) {
     hash += "#";
 }
- console.log(space + hash + " " + hash + space);
+ console.log(space + hash, hash);
 
 }
