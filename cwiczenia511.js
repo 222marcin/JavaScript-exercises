@@ -10,4 +10,14 @@ const result = numbers.map((currentEl, index) => {
 });
 console.log(result);
 
-fff
+function firstArrayIndex () {
+    
+    //   for (let i = 0; i < firstArray.length; i++) {
+    //   if (firstArray[i] > firstArray[i + 1]) 
+    //   return console.log("The heaviest ball is on the index: ", firstArray.indexOf(firstArray[i]))
+    //   };
+    //   return console.log("The heaviest ball is on the index: ", firstArray.indexOf(firstArray[2]));
+      
+    // }
+    // firstArrayIndex();
+    // }
